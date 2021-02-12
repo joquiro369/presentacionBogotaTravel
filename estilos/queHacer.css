@@ -1,0 +1,13 @@
+.margen {
+    padding-left: 50%;
+}
+
+.centrar {
+    margin-left: 50%;
+    text-align: center;
+}
+
+.row {
+    width: 20%;
+}
+

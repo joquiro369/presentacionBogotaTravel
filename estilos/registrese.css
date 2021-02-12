@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root {
+    --colorPrimario: #ffc000;
+    --colorSecundario: #ff0000; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a,
+p {
+    font-family: 'Metrophobic', sans-serif;
+}
+
+.gradient {
+    background-image: linear-gradient(to right, #ffffff, var(--colorPrimario));
+}
+
+.logo {
+    width: 60%;
+    display: inline-block;
+}
+
+.txt-white {
+    color: #fff;
+}
+
+.txt-white:hover {
+    color: var(--colorPrimario);
+}
+
+.bg-yellow:hover {
+    background-color: var(--colorPrimario);
+}
+
+h3 {
+    text-align: center;
+}
+
+/*Aqui inician el imagen de bogota y los logos de google y facebook*/
+
+.Cuenta {
+    width: 25%;
+    margin: 3%;
+    border: 2px solid;
+    border-right: 2px  solid;
+    border-bottom: 2px solid;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.Cuenta img {
+    width: 30%;
+    border-radius: 3%;
+}
+
+.section-direction {
+    display: direction;
+    height: 30%;
+    width: 30%;
+    flex-direction: row;
+    margin-left: 40%;
+}
+
+.Cuent img {
+    width: 100%;
+    height: 150px;
+    border-radius: 3%;
+}
+
+/*Aqui inician el formulario de registro*/
+
+form {
+    margin-left: 20%;
+    width: 80%;
+    text-align: left;
+}
+
+.elemnt-flex {
+    width: 40%;
+    margin-bottom: 2%;
+}
+
+.label {
+    width: 20%;
+    float: left;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 40%;
+}
+
+.elemnt-flex input,
+select,
+textarea {
+    width: 70%;
+    height: 30px;
+}
+
+h4 {
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 10%;
+}
+
+
+.button {
+    border: solid 1px #fff;
+    background: #ffc000;
+    color: #fff;
+    padding: 5px 80px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    float: right;
+    cursor: pointer;
+    margin-right: 10%;
+}
+
+
+
